@@ -1,0 +1,6 @@
+Recipe
+Recipe to cook tonight
+
+This application read data from two files - Fridge.csv and Recipes.json. Then it will remove all the expired items from the fridge and check the closest use-by item from the fridge and will find the recipe for this. This recipe will display in the UIViewCollectionCell.
+
+notes: The application will end it's search once the recipe found. To go further seach it needs to subtract the qty of that ingredient and should look for next item. So this application is developed based on the assumption to look for one recipe.
